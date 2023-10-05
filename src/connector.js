@@ -7,12 +7,13 @@ var mysql = require("mysql2");
 //     database: "test",
 //     multipleStatements: true
 // });
+//localhost
 
 let con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "1234",
-  database: "orders",
+  host: "byvpip1dwddtyexoldxi-mysql.services.clever-cloud.com",
+  user: "ud4hhfl9wyyjujwg",
+  password: "C99FowB7zivVSKlmCY0r",
+  database: "byvpip1dwddtyexoldxi",
   multipleStatements: true,
 });
 

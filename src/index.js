@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/api", orderRoute);
 
 //create server in local machine
-app.listen(port, () =>
+app.listen(process.env.PORT || port, () =>
   console.log(`App listening on port ${port}!`)
 );
 
